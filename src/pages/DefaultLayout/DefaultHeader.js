@@ -70,7 +70,7 @@ class DefaultHeader extends Component {
           <AppHeaderDropdown direction="down">
             <DropdownToggle nav>
               <img
-                src={'dashboard_sample/images/users/user1.jpg'}
+                src={'/dashboard_sample/images/users/user1.jpg'}
                 className="img-avatar"
                 alt="admin@bootstrapmaster.com"
               />
