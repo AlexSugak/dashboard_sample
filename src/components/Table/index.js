@@ -1,0 +1,1 @@
+export { CheckboxTable } from './Table';

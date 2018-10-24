@@ -1,0 +1,16 @@
+input[type="checkbox"]{
+    margin-left: 0;
+}
+
+th {
+    vertical-align: baseline !important;
+}
+
+.action-buttons button i{
+    margin-top: 0 !important;
+}
+
+.table th, .table td {
+    border-bottom: none !important;
+    border-top: none !important;
+}

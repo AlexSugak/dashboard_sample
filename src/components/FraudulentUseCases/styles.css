@@ -1,0 +1,7 @@
+.total-number {
+    font-size: 24px;
+    white-space: nowrap;
+    color: grey;
+    float: right;
+    margin-right: 12px;
+}

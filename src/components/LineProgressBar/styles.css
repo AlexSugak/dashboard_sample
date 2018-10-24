@@ -1,0 +1,23 @@
+.line-progress-bar-text {
+  font-size: 12px;
+  height: 19px;
+  display: flex;
+  justify-content: space-between;
+}
+.filler {
+  height: 100%;
+  border-radius: inherit;
+  transition: width .2s ease-in;
+}
+.line-progress-bar-box {
+  display: inline-block;
+  width: 30%;
+  padding: 0 10px;
+}
+.line-progress-bar {
+  position: relative;
+  height: 6px;
+  width: 100%;
+  background-color: rgb(230, 228, 228);
+  border-radius: 50px;
+}

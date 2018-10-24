@@ -1,0 +1,17 @@
+.chart-wrapper.line-chart {
+  width: 100%;
+  align-self: flex-end;
+}
+.line-progress-bars {
+  flex: 1 100%;
+}
+div.hr {
+  background: rgb(230, 228, 228)  no-repeat scroll center;
+  margin: 5% 5% 10% 5%;
+  height: 1px;
+}
+.line-chart.card-body {
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+}

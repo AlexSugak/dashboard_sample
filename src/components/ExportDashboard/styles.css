@@ -1,0 +1,102 @@
+.export-dashboard .card-header {
+  padding: 0;
+}
+.export-dashboard button {
+  padding: 0.75rem 1.25rem;
+  text-align: left;
+}
+
+.export-dashboard span {
+  padding-left: 10px;
+}
+
+.alerts .list-group-item {
+  text-align: left;
+  font-size: 12px;
+}
+.alerts .badge {
+  margin-right: 10px;
+}
+.alerts .text {
+  width: calc(100% - 80px);
+  margin-bottom: 2px;
+}
+.alerts .text-inner {
+  margin-right: 5px;
+}
+.alerts.card-body {
+  padding: 0;
+}
+
+.alerts .list-group-item:first-child {
+  border: 1px solid #fff;
+}
+
+.alerts .list-group-item:first-child:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.alerts .list-group-item {
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header_title {
+  width: 50%;
+}
+.header_btns {
+  width: 50%;
+  height: 18px;
+  margin-top: 3px;
+}
+.header_btns .badge {
+  cursor: pointer;
+  margin: 0 3px;
+}
+.header_btns .badge-warning .fa-check {
+  color: #fff;
+}
+
+.header_btns .badge.transparent {
+  opacity: 0.3;
+}
+
+.alerts {
+  display: flex;
+  flex-direction: column;
+}
+
+.alerts .list-group {
+  flex: 1;
+}
+
+.alerts .badge {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  height: 13px;
+}
+
+.alerts .link {
+  display: inline-block;
+}
+.alerts .link:hover {
+  text-decoration: none;
+}
+.alerts .time {
+  text-align: right;
+  font-size: 10px;
+  margin: 3px 0 0;
+  width: 52px;
+}
+
+.alerts .more_items_wrap {
+  padding: 15px;
+}
+.alerts .more_items {
+  text-decoration: none;
+}
